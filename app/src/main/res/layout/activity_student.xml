@@ -4,36 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".StudentActivity">
 
-    <Button
-        android:id="@+id/btnTeacher"
+    <TextView
+        android:id="@+id/txtStudentIp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Teacher"
-        android:textSize="32sp"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/txtReceiveData"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@+id/btnStudent"
-        app:layout_constraintBottom_toBottomOf="parent"
-
         />
 
-    <Button
-        android:id="@+id/btnStudent"
+    <TextView
+
+        android:id="@+id/txtReceiveData"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Student"
         android:textSize="32sp"
-
+        android:text="Hello"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/btnTeacher"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
 
         />
 
-
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restart"
+        android:textSize="32sp"
+        app:layout_constraintTop_toBottomOf="@+id/txtReceiveData"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
