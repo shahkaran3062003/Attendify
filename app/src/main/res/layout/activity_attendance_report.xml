@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttendanceReport"
+    android:orientation="vertical"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        >
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/backArrow"
+            android:background="@null"
+            android:layout_alignParentLeft="true"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/txt_attendance_report"
+            android:gravity="center"
+            style="@style/homeTitle"
+
+            />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="@string/txt_from"
+            android:gravity="left|bottom"
+            style="@style/calendarTitle"
+            android:paddingLeft="16dp"
+            />
+
+        <CalendarView
+            android:id="@+id/clvFrom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:dateTextAppearance="@style/calendarDate"
+            android:focusedMonthDateColor="@color/text_primary_bg_light"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="@string/txt_to"
+            android:gravity="left|bottom"
+            style="@style/calendarTitle"
+            android:paddingLeft="16dp"
+
+            />
+
+
+
+        <CalendarView
+            android:id="@+id/clvTo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:dateTextAppearance="@style/calendarDate"
+            style="@style/calendarDate"
+            android:focusedMonthDateColor="@color/text_primary_bg_light"
+            />
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingTop="12dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="16dp"
+        android:gravity="center"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGetReport"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/txt_get_report"
+            style="@style/ButtonStyle"
+            android:backgroundTint="@color/primary_bg_light"
+            android:textColor="@color/button_text_primary_light"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

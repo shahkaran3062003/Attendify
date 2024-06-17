@@ -1,3 +1,33 @@
 <resources>
-    <string name="app_name">Attendify</string>
+    <string name="app_name">Attendify Teacher</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="teach_reg_title">Sign up with Attendify</string>
+    <string name="email">Email</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="teacherLogTitle">Welcome back</string>
+    <string name="createClassTitle">Create a class</string>
+    <string name="txtCancel">Cancel</string>
+    <string name="txtCreate">Create</string>
+    <string name="txtPortNumber">Port Number</string>
+    <string name="txtSemester">Semester</string>
+    <string name="txtBranch">Branch</string>
+    <string name="txtCreateClass">Create a class</string>
+    <string name="txtEditClass">Edit a class</string>
+    <string name="menuEdit">Edit</string>
+    <string name="menuDelete">Delete</string>
+    <string name="txtTakeAttendance">Take Attendance</string>
+    <string name="txtAttendance">Attendance</string>
+    <string name="txt_otp_for_today_s_attendance">OTP for Today\'s Attendance</string>
+    <string name="txtConfirm">Confirm</string>
+    <string name="txtPresent">Present</string>
+    <string name="txtAbsent">Absent</string>
+    <string name="txt_attendance_report">Attendance Report</string>
+    <string name="txt_get_report">Get Report</string>
+    <string name="txt_from">From</string>
+    <string name="txt_to">To</string>
+    <string name="baseApi">https://testing306.000webhostapp.com/api</string>
 </resources>

@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+<!--    <color name="black">#FF000000</color>-->
+<!--    <color name="white">#FFFFFFFF</color>-->
+
+<!--    main theme color-->
+    <color name="my_light_primary">#FFFFFF</color>
+    <color name="my_dark_primary">#1C2126</color>
+
+
+    <!--    light style-->
+    <color name="text_primary_light">#121417</color>
+    <color name="text_secondary_light">#637887</color>
+    <color name="primary_bg_light">#1C8AD4</color>
+    <color name="secondary_bg_light">#F0F2F5</color>
+    <color name="button_text_primary_light">#FFFFFF</color>
+    <color name="primary_boarder_light">#DBE0E5</color>
+    <color name="text_primary_bg_light">#FFFFFF</color>
+
+
+<!--    dark style-->
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#9EADB8</color>
+    <color name="primary_bg_dark">#1C8AD4</color>
+    <color name="secondary_bg_dark">#293338</color>
+    <color name="button_text_primary_dark">#FFFFFF</color>
+    <color name="primary_boarder_dark">#3D4A52</color>
+    <color name="text_primary_bg_dark">#1C2126</color>
+
+
+    <color name="present">#28a745</color>
+    <color name="absent">#dc3545</color>
+
 </resources>

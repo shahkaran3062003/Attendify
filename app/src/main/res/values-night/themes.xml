@@ -2,6 +2,121 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Attendify" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+         <item name="colorPrimary">@color/my_dark_primary</item>
+        <item name="colorPrimaryDark">@color/my_dark_primary</item>
+        <item name="colorAccent">@color/my_dark_primary</item>
+        <item name="text_color">@color/text_primary_dark</item>
     </style>
+
+    <style name="Theme.Attendify" parent="Base.Theme.Attendify" />
+
+
+    <style name="teacherRegTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/lexend_bold</item>
+    </style>
+
+    <style name="TextBoxStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_secondary_dark</item>
+        <item name="android:colorBackground">@color/text_primary_bg_dark</item>
+        <item name="fontFamily">@font/lexend_regular</item>
+        <item name="android:textColorHint">@color/text_secondary_dark</item>
+        <item name="hintTextColor">@color/text_secondary_dark</item>
+        <item name="boxBackgroundColor">@color/text_primary_bg_dark</item>
+        <item name="boxStrokeColor">@color/primary_boarder_dark</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/lexend_bold</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+
+    <style name="loginToRegText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/lexend_bold</item>
+    </style>
+
+    <style name="homeTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/lexend_bold</item>
+    </style>
+
+    <style name="homeClassTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/lexend_semibold</item>
+    </style>
+
+    <style name="homeClassSubTitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_secondary_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/lexend_regular</item>
+    </style>
+
+    <style name="homeClassNumber">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/lexend_regular</item>
+    </style>
+
+    <style name="createClassTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/lexend_bold</item>
+    </style>
+
+
+
+    <style name="studentNameTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/lexend_semibold</item>
+    </style>
+
+    <style name="studentSubTitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_secondary_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/lexend_regular</item>
+    </style>
+
+    <style name="calendarIcon">
+        <item name="android:src">@drawable/calendar_dark</item>
+    </style>
+
+    <style name="backArrow">
+        <item name="android:src">@drawable/back_arrow_dark</item>
+    </style>
+
+    <style name="attendanceOTP">
+        <item name="text_color">@color/text_primary_dark</item>
+    </style>
+
+    <style name="calendarTitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/lexend_semibold</item>
+    </style>
+
+
 </resources>
